@@ -21,6 +21,7 @@ This tool analyzes a local video and extracts:
 
 ## Usage
 
-Basic:python VideoFeatureExtractor.py --video video/vd5.mp4 --out features.json
+Basic: python VideoFeatureExtractor.py --video video/vd5.mp4 --out features.json
+
 With YOLO: python VideoFeatureExtractor.py --video video/vd5.mp4 --yolo\_cfg yolo/yolov3.cfg --yolo\_weights yolo/yolov3.weights --yolo\_names yolo/coco.names --out features.json
 
